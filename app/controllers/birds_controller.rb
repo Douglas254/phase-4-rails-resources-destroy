@@ -22,6 +22,8 @@ class BirdsController < ApplicationController
     end
   end
 
+  
+
   # PATCH /birds/:id
   def update
     bird = Bird.find_by(id: params[:id])
